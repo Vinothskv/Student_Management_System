@@ -1,0 +1,61 @@
+ /* style for getStudent page    */
+ 
+ .form_input{
+    margin-left: 80px;
+    width: 300px;
+    height: 32px;
+}
+.p_div{
+    margin: 50px;
+    position: relative;
+}
+.add_btn{
+   position: absolute;
+   color: white;
+   left: 80%;
+   top:40px;
+   width: 125px;
+   background-color: black;
+   border-radius: 20px;
+   
+}
+.add_btn:hover{
+   background-color:rgb(197, 13, 13);
+   transition: 0.25s;
+}
+.title_p{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 700;
+  margin-left:80px;
+}
+.table_div{
+   width: 80%; 
+   position: absolute;
+   left: 10%;
+   top:30%;
+}
+.data_row td{
+   text-align: center;
+   padding: 20px;
+   font-weight:400;
+} 
+.data_d1{
+
+   text-align: center;
+   font-weight:bold
+}
+.edit_icon{
+   font-size: .7rem;
+
+}
+.action_edit{
+ color: blue;
+}
+.action_delete{
+  color:rgb(197, 13, 13);
+}
+.head_row{
+   position: sticky;
+}
+
+
